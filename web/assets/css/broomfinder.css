@@ -1,0 +1,227 @@
+html, body {
+	height: 100%; /* fyller ut page */
+}
+
+html {
+
+}
+
+body {
+	background: #242424;
+	padding-top: 50px;
+}
+
+pre {
+	padding: 0;
+	margin: 0;
+	line-height: 1;
+	font-size: 10px;
+}
+
+#page {
+	position: relative;
+	width: 640px;
+	height: auto;
+	margin: 0 auto;
+	font-size: 14px;
+}
+@media screen and (max-width: 740px) { #page { width: 90%; } }
+
+
+/*
+	Buttons
+*/
+.dropdown {
+	padding: 10px;
+} @media screen and (max-width: 768px) { .dropdown { text-align: center; } }
+.dropdown.navdropdown {
+	padding: 0;
+} @media screen and (max-width: 768px) { .dropdown { text-align: left; } } /* fixar padding för dropdown i navbar, specifikt för broomfinder då det används dropdowns flera ggr */
+.dropdown.top {
+	padding-bottom: 0;
+}
+.dropdown.bot {
+	padding-top: 0;
+}
+.dropdown-menu.filter-dropdowns {
+	min-width: 100px;
+	max-width: 50%;
+	padding: 4px 0;
+	margin-top: -1px;
+	margin-left: 10px;
+}
+@media screen and (max-width: 500px) { .dropdown-menu.filter-dropdowns { 
+	min-width: 100px;
+	margin: 0;
+	margin-top: -2px;
+	max-width: 100%;
+} }
+.btn .caret {
+	margin-left: 5px;
+}
+.btn {
+	outline: none  !important;
+}
+.btn:focus {
+/* 	background-color: #438bca; */
+	outline: none !important;
+} @media screen and (max-width: 768px) { .btn:focus { background-color: #fff !important; } }
+.chooseCampusButton,
+.chooseCampusButton:focus,
+.chooseDateButton,
+.chooseDateButton:focus {
+	background-color: #fff;
+	margin-bottom: 10px;
+}
+
+.loc-btn,
+.date-btn {
+	padding: 8px 12px;
+	text-align: left;
+	width: 100%; /* TODO mobile */
+	border: 0;
+	border-radius: 0;
+}
+
+.btn-primary {
+	
+}
+
+
+.starred,
+.starredDate {
+	position: absolute;
+	font-size: 30px;
+	margin-left: 15px;
+	margin-top: 2px;
+}
+
+.fb-like {
+	padding-left: 12px;
+	-webkit-transform: scale(1.2);
+	   -moz-transform: scale(1.2);
+	     -o-transform: scale(1.2);
+	        transform: scale(1.2);
+}
+
+
+
+/*
+	Rooms that are free all day
+*/
+#Free-container {
+	background: darkgray;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+/*
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-radius: 15px;
+*/
+	border-bottom: 1px solid rgb(190,190,190);
+	margin-bottom: 10px;
+	padding: 20px 0 10px 0;
+}
+#Free-title {
+	
+}
+#Free-room-number {
+	font-weight: 800;
+}
+
+
+/*
+	Partly or fully booked rooms
+*/
+.loc {
+	width: 100%;
+	position: absolute; /* Absolut position ger att de fade:ear in och ut ovanpå varandra. */
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	opacity: 1;
+	-webkit-transition: all 0.3s ease;
+	   -moz-transition: all 0.3s ease;
+	     -o-transition: all 0.3s ease;
+	        transition: all 0.3s ease;
+}
+.loc.ng-hide {
+	opacity: 0;
+}
+
+
+/*
+	Each campus (location)
+*/
+.loc {
+	background: lightgray;
+/*
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+*/
+	border-radius: 15px;
+	padding-bottom: 25px;
+	margin-bottom: 50px;
+}
+
+
+
+#Room-title {
+
+}
+#Room-container {
+	margin: 5px 0;
+}
+#Room-room-number {
+	font-weight: 800;
+}
+#Room-free-times {
+	
+}
+
+#Free-title,
+#Room-title {
+	font-weight: 600;
+	font-size: 22px;
+	color: #3366CC;
+}
+
+#Free-container,
+#Free-title,
+#Free-rooms-number,
+#Room-title,
+#Room-container,
+#Room-room-number,
+#Room-free-times
+{
+	text-align: center;
+}
+
+
+
+
+
+
+/*
+#js-test {
+	position: absolute;
+	background: yellow;
+	z-index: 9999;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
