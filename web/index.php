@@ -9,7 +9,7 @@
     <meta name="author" content="Erik Engervall">
 	<meta name="keywords" content="HTML,CSS,XML,JavaScript,Development,App,Application,iOS,Web,Webb,Android,Klassrum,Broom,Kaffe,Classroom,CoffeCam,KaffeCam">
 	
-    <title>Broomfinder</title>
+    <title>Roomfinder</title>
     <link rel="icon" href="/favicon.png">
 
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -35,7 +35,7 @@
 <div class="navbar navbar-inverse navbar-fixed-top">
   <div id="nav" class="container">
     <div class="navbar-header">
-      <a class="navbar-brand" href="http://engervall.com/"><i class="fa fa-home" aria-hidden="true"></i></a>
+      <!-- <a class="navbar-brand" href="http://engervall.com/"><i class="fa fa-home" aria-hidden="true"></i></a> -->
     </div>
   </div>
 </div>
